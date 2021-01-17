@@ -1,0 +1,11 @@
+{
+  "private": "true",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "yarn workspace @nextjs-wc-ex/wc-components build && yarn workspace @nextjs-wc-ex/next-app build ",
+    "start": "yarn build && yarn workspace @nextjs-wc-ex/next-app start"
+  },
+  "keywords": [],
+  "name": "nextjs-wc-ex",
+  "description": ""
+}
